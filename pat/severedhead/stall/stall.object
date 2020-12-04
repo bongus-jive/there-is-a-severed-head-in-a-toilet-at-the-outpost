@@ -1,0 +1,63 @@
+{
+  "objectName" : "pat_severedhead_stall",
+  "colonyTags" : ["outpost"],
+  "rarity" : "Uncommon",
+  "description" : "A bathroom stall. Don't get stuck!",
+  "shortdescription" : "Severed Head Bathroom Stall",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 110,
+  "printable" : false,
+
+  "apexDescription" : "A basic bathroom stall.",
+  "avianDescription" : "A bathroom stall.",
+  "floranDescription" : "Floran likes hiding in ssstalls and watching people walk by through gap!",
+  "glitchDescription" : "Neutral. A bathroom stall.",
+  "humanDescription" : "Great for hiding in and playing mobile games.",
+  "hylotlDescription" : "A crude bathroom stall.",
+  "novakidDescription" : "When you gotta go, you gotta go.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "stall.png",
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+			
+      "sitPosition" : [-6, 20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "stall.png",
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "sitPosition" : [2, 20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitOrientation" : "lay",
+  "sitCoverImage" : "/pat/severedhead/stall/cover.png",
+  "sitFlipDirection" : false,
+	
+  "interactAction" : "ScriptPane",
+  "interactData" : "/pat/severedhead/stall/window/window.config",
+
+  "scripts" : [ "stall.lua" ],
+  "scriptDelta" : 5,
+	"hasHead" : true
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/outpost_mission4/actions/-",
+    "value": {
+      "type": "placeDungeon",
+      "dungeonId": "outpost_severedhead",
+      "targetInstance": "outpost",
+      "targetPosition": [377, 646]
+    }
+  }
+]

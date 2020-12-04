@@ -1,0 +1,13 @@
+{
+  "itemName" : "pat_severedhead",
+  "shortdescription" : "Severed Head",
+  "description" : "found in a toilet",
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "yes",
+  "twoHanded" : false,
+  "inventoryIcon" : "severedhead.png",
+	"animation": "severedhead.animation",
+	"scripts" : ["severedhead.lua"]
+}

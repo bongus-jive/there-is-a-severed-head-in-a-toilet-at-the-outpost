@@ -1,34 +1,7 @@
-{ "height":6,
+{ "compressionlevel":-1,
+ "height":5,
  "infinite":false,
  "layers":[
-        {
-         "compression":"zlib",
-         "data":"eJwrYWBgKCET9yBhADiHCHE=",
-         "encoding":"base64",
-         "height":6,
-         "id":2,
-         "name":"back",
-         "opacity":0.47,
-         "type":"tilelayer",
-         "visible":true,
-         "width":3,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "compression":"zlib",
-         "data":"eJxjZGBgYCQT9yBhAA\/8AbQ=",
-         "encoding":"base64",
-         "height":6,
-         "id":1,
-         "name":"front",
-         "opacity":1,
-         "type":"tilelayer",
-         "visible":true,
-         "width":3,
-         "x":0,
-         "y":0
-        }, 
         {
          "draworder":"topdown",
          "id":3,
@@ -72,7 +45,7 @@
  "nextobjectid":2,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.2.0",
+ "tiledversion":"1.7.2",
  "tileheight":8,
  "tilesets":[
         {
@@ -89,6 +62,6 @@
         }],
  "tilewidth":8,
  "type":"map",
- "version":1.2,
+ "version":"1.6",
  "width":3
 }

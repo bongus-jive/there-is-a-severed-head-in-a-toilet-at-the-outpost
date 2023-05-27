@@ -9,9 +9,9 @@
 	],
 	[
 		{"op" : "test", "path" : "/anomsOutpostOverhaul"},
-    {"op" : "replace", "path" : "/_kfmissionbeacon/targetPosition", "value" : [431, 585]}
+    {"op" : "replace", "path" : "/_severedhead/targetPosition", "value" : [431, 585]}
 	],
   [
-		{"op" : "move", "from" : "/_kfmissionbeacon", "path" :  "/outpost_mission4/actions/-"}
+		{"op" : "move", "from" : "/_severedhead", "path" :  "/outpost_mission4/actions/-"}
   ]
 ]

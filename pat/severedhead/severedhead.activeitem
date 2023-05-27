@@ -9,5 +9,18 @@
   "twoHanded" : false,
   "inventoryIcon" : "severedhead.png",
 	"animation": "severedhead.animation",
-	"scripts" : ["severedhead.lua"]
+	"scripts" : ["severedhead.lua"],
+  
+  "itemTags" : ["fossil"],
+  "completeSetDescriptions" : {
+    "price" : 0,
+    "shortdescription" : "Severed Head Display",
+    "description" : "oh\n\nthat's a severed head"
+  },
+  "fossilSetName" : "pat_severedhead",
+  "setIndex" : 1,
+  "setCount" : 1,
+  "completeFossilIcon" : "/objects/fossils/smallfossils/smallfossilcompleteicon.png",
+  "displayImage" : "/pat/severedhead/display.png",
+  "displayoffset" : [0, 0]
 }

@@ -2,7 +2,7 @@
   [
     { "op": "add", "path": "/_severedhead", "value": {
         "type": "placeDungeon",
-        "dungeonId": "outpost_severedhead",
+        "dungeonId": "pat_severedhead",
         "targetInstance": "outpost",
         "targetPosition": [ 377, 646 ]
       } }

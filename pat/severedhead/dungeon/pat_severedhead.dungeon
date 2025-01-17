@@ -1,11 +1,10 @@
 {
   "metadata": {
-    "name": "outpost_severedhead",
+    "name": "pat_severedhead",
     "species": "generic",
-    "rules": [
-    ],
+    "rules": [],
 
-    "anchor": [ "outpost_severedhead" ],
+    "anchor": [ "pat_severedhead" ],
 
     "maxRadius": 1000000,
     "maxParts": 1,
@@ -14,11 +13,11 @@
 
   "parts": [
     {
-      "name": "outpost_severedhead",
+      "name": "pat_severedhead",
       "rules": [
         [ "maxSpawnCount", [ 1 ] ]
       ],
-      "def": [ "tmx", "outpost_severedhead.json" ]
+      "def": [ "tmx", "pat_severedhead.json" ]
     }
   ]
 }

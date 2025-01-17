@@ -9,7 +9,7 @@
   ],
   [
     { "op": "test", "path": "/anomsOutpostOverhaul" },
-    { "op": "replace", "path": "/_severedhead/targetPosition", "value": [ 431, 585 ] }
+    { "op": "replace", "path": "/_severedhead/targetPosition", "value": [ 427, 585 ] }
   ],
   [
     { "op": "move", "from": "/_severedhead", "path": "/outpost_mission4/actions/-" }

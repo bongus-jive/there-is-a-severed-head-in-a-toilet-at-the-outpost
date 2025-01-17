@@ -1,12 +1,13 @@
 {
   "objectName": "pat_severedhead_stall",
-  "colonyTags": [ "outpost" ],
   "rarity": "Uncommon",
-  "description": "A bathroom stall. Don't get stuck!",
-  "shortdescription": "Severed Head Bathroom Stall",
   "category": "furniture",
-  "price": 110,
+  "colonyTags": [ "outpost" ],
   "printable": false,
+  "inventoryIcon": "icon.png",
+
+  "shortdescription": "Severed Head Bathroom Stall",
+  "description": "A bathroom stall. Don't get stuck!",
 
   "apexDescription": "A basic bathroom stall.",
   "avianDescription": "A bathroom stall.",
@@ -16,7 +17,6 @@
   "hylotlDescription": "A crude bathroom stall.",
   "novakidDescription": "When you gotta go, you gotta go.",
 
-  "inventoryIcon": "icon.png",
   "orientations": [
     {
       "image": "stall.png",
@@ -42,10 +42,16 @@
   "sitCoverImage": "/pat/severedhead/stall/cover.png",
   "sitFlipDirection": false,
 
-  "interactAction": "ScriptPane",
-  "interactData": "/pat/severedhead/window/window.config",
-
   "scripts": [ "stall.lua" ],
-  "scriptDelta": 5,
-  "hasHead": true
+  "scriptDelta": 0,
+
+  "headItem": { "name": "pat_severedhead" },
+  "sayMessage": "oh\n\nthat's a severed head",
+  "radioMessage": {
+    "messageId": "pat_severedhead",
+    "text": "there is a severed head in a toilet in the restroom at applebee's at 9364 WI-16, Onalaska, WI",
+    "unique": false,
+    "important": true,
+    "delay": 3
+  }
 }

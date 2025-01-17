@@ -1,17 +1,17 @@
 [
-	[
-		{"op" : "add", "path" : "/_severedhead", "value" : {
-      "type": "placeDungeon",
-      "dungeonId": "outpost_severedhead",
-      "targetInstance": "outpost",
-      "targetPosition": [377, 646]
-    }}
-	],
-	[
-		{"op" : "test", "path" : "/anomsOutpostOverhaul"},
-    {"op" : "replace", "path" : "/_severedhead/targetPosition", "value" : [431, 585]}
-	],
   [
-		{"op" : "move", "from" : "/_severedhead", "path" :  "/outpost_mission4/actions/-"}
+    { "op": "add", "path": "/_severedhead", "value": {
+        "type": "placeDungeon",
+        "dungeonId": "outpost_severedhead",
+        "targetInstance": "outpost",
+        "targetPosition": [ 377, 646 ]
+      } }
+  ],
+  [
+    { "op": "test", "path": "/anomsOutpostOverhaul" },
+    { "op": "replace", "path": "/_severedhead/targetPosition", "value": [ 431, 585 ] }
+  ],
+  [
+    { "op": "move", "from": "/_severedhead", "path": "/outpost_mission4/actions/-" }
   ]
 ]

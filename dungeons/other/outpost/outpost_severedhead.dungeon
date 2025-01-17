@@ -1,24 +1,24 @@
 {
-  "metadata" : {
-    "name" : "outpost_severedhead",
-    "species" : "generic",
-    "rules" : [
+  "metadata": {
+    "name": "outpost_severedhead",
+    "species": "generic",
+    "rules": [
     ],
 
-    "anchor" : [ "outpost_severedhead" ],
+    "anchor": [ "outpost_severedhead" ],
 
-    "maxRadius" : 1000000,
-    "maxParts" : 1,
-    "protected" : true
+    "maxRadius": 1000000,
+    "maxParts": 1,
+    "protected": true
   },
 
-  "parts" : [
+  "parts": [
     {
-      "name" : "outpost_severedhead",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
+      "name": "outpost_severedhead",
+      "rules": [
+        [ "maxSpawnCount", [ 1 ] ]
       ],
-      "def" : [ "tmx", "outpost_severedhead.json" ]
+      "def": [ "tmx", "outpost_severedhead.json" ]
     }
   ]
 }

@@ -1,26 +1,26 @@
 {
-  "itemName" : "pat_severedhead",
-  "shortdescription" : "Severed Head",
-  "description" : "found in a toilet",
-  "price" : 0,
-  "maxStack" : 1,
-  "rarity" : "Rare",
-  "category" : "yes",
-  "twoHanded" : false,
-  "inventoryIcon" : "severedhead.png",
-	"animation": "severedhead.animation",
-	"scripts" : ["severedhead.lua"],
-  
-  "itemTags" : ["fossil"],
-  "completeSetDescriptions" : {
-    "price" : 0,
-    "shortdescription" : "Severed Head Display",
-    "description" : "oh\n\nthat's a severed head"
+  "itemName": "pat_severedhead",
+  "shortdescription": "Severed Head",
+  "description": "found in a toilet",
+  "price": 0,
+  "maxStack": 1,
+  "rarity": "Rare",
+  "category": "yes",
+  "twoHanded": false,
+  "inventoryIcon": "severedhead.png",
+  "animation": "severedhead.animation",
+  "scripts": [ "severedhead.lua" ],
+
+  "itemTags": [ "fossil" ],
+  "completeSetDescriptions": {
+    "price": 0,
+    "shortdescription": "Severed Head Display",
+    "description": "oh\n\nthat's a severed head"
   },
-  "fossilSetName" : "pat_severedhead",
-  "setIndex" : 1,
-  "setCount" : 1,
-  "completeFossilIcon" : "/objects/fossils/smallfossils/smallfossilcompleteicon.png",
-  "displayImage" : "/pat/severedhead/display.png",
-  "displayoffset" : [0, 0]
+  "fossilSetName": "pat_severedhead",
+  "setIndex": 1,
+  "setCount": 1,
+  "completeFossilIcon": "/objects/fossils/smallfossils/smallfossilcompleteicon.png",
+  "displayImage": "/pat/severedhead/display.png",
+  "displayoffset": [ 0, 0 ]
 }

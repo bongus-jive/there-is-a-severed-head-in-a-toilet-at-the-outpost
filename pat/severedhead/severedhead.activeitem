@@ -9,7 +9,7 @@
   "twoHanded": false,
   "inventoryIcon": "severedhead.png",
   "animation": "severedhead.animation",
-  "scripts": [ "severedhead.lua" ],
+  "scripts": [ ],
 
   "itemTags": [ "fossil" ],
   "completeSetDescriptions": {

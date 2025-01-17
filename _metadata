@@ -1,10 +1,11 @@
 {
-  "version" : "1.1.1",
   "author" : "patman",
-  "tags" : "Dungeons|Furniture and Objects",
-  "description" : "a severed head will appear in a toilet at the outpost after completing the avian mission\n\nyou can hold the head\nand you can put it into a small fossil display case if u want.\n\nthat it all\n\n\ncompatible with anoms outpost .\nthere is a [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2469217163][u]separate patch[/u][/url] but it is no longer needed it's built-in now. so dont install the patch :3\n\n[img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img][img]https://i.imgur.com/xVfcRRH.gif[/img]\n\nhttps://discord.gg/GdsQSgV\nhttps://www.patreon.com/pathiccstar",
-  "name" : "severedhead",
+  "description" : "a severed head will appear in a toilet at the outpost after completing the avian mission\n\nyou can hold the head\nand you can put it into a small fossil display case if u want.\n\nthat it all\n\n\ncompatible with anoms outpost",
   "friendlyName" : "there is a severed head in a toilet at the outpost",
+  "link" : "steam://url/CommunityFilePage/2309005929",
+  "name" : "severedhead",
   "steamContentId" : "2309005929",
-  "link" : "steam://url/CommunityFilePage/2309005929"
+  "steamDescription" : "a severed head will appear in a toilet at the outpost after completing the avian mission\nyou can hold the head\nand you can put it into a small fossil display case if u want.\n\nworks with anoms outpost overhaul\n\n[img]https://i.imgur.com/wXjYMqP.gif[/img]https://discord.gg/GdsQSgV\n[img]https://i.imgur.com/uyG8oTa.gif[/img]https://www.patreon.com/pathiccstar\n[img]https://i.imgur.com/xVfcRRH.gif[/img]https://ko-fi.com/patmanf\n[img]https://i.imgur.com/jJAj6jF.gif[/img]https://github.com/bongus-jive/there-is-a-severed-head-in-a-toilet-at-the-outpost",
+  "tags" : "Dungeons|Furniture and Objects",
+  "version" : "1.1.2"
 }

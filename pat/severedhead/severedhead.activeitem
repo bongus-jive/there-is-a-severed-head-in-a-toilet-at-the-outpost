@@ -2,16 +2,23 @@
   "itemName": "pat_severedhead",
   "shortdescription": "Severed Head",
   "description": "found in a toilet",
-  "price": 0,
   "maxStack": 1,
   "rarity": "Rare",
-  "category": "yes",
+  "category": "junk",
+  "itemTags": [ "fossil" ],
   "twoHanded": false,
-  "inventoryIcon": "severedhead.png",
+  "inventoryIcon": "icon.png",
+  "tooltipFields": {
+    "objectImage": "/pat/severedhead/severedhead.png"
+  },
+  "animationParts": {
+    "head": "severedhead.png?flipx"
+  },
+  
   "animation": "severedhead.animation",
   "scripts": [ ],
+  "builder": "/pat/severedhead/severedhead_build.lua",
 
-  "itemTags": [ "fossil" ],
   "completeSetDescriptions": {
     "price": 0,
     "shortdescription": "Severed Head Display",

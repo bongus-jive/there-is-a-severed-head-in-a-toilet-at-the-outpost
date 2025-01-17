@@ -1,13 +1,11 @@
 {
-  "globalTagDefaults": { },
-
   "animatedParts": {
     "parts": {
-      "yes": {
+      "head": {
         "properties": {
           "centered": true,
           "offset": [ 0.125, 0.25 ],
-          "image": "severedhead.png?flipx"
+          "image": "<partImage>"
         }
       }
     }

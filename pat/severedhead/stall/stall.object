@@ -55,7 +55,7 @@
   "sitFlipDirection": false,
 
   "interactAction": "ScriptPane",
-  "interactData": "/pat/severedhead/stall/window/window.config",
+  "interactData": "/pat/severedhead/window/window.config",
 
   "scripts": [ "stall.lua" ],
   "scriptDelta": 5,

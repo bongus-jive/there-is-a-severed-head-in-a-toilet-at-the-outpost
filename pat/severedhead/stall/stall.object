@@ -4,7 +4,6 @@
   "rarity": "Uncommon",
   "description": "A bathroom stall. Don't get stuck!",
   "shortdescription": "Severed Head Bathroom Stall",
-  "race": "generic",
   "category": "furniture",
   "price": 110,
   "printable": false,
@@ -21,36 +20,25 @@
   "orientations": [
     {
       "image": "stall.png",
-      "flipImages": true,
       "direction": "left",
-
+      "flipImages": true,
       "imagePosition": [ -8, 0 ],
-      "frames": 1,
-      "animationCycle": 1.0,
-
-      "sitPosition": [ -6, 20 ],
-
       "spaceScan": 0.1,
-      "anchors": [ "bottom" ]
-
+      "anchors": [ "bottom" ],
+      "sitPosition": [ -7, 20 ]
     },
     {
       "image": "stall.png",
       "direction": "right",
-
       "imagePosition": [ -8, 0 ],
-      "frames": 1,
-      "animationCycle": 1.0,
-
-      "sitPosition": [ 2, 20 ],
-
       "spaceScan": 0.1,
-      "anchors": [ "bottom" ]
+      "anchors": [ "bottom" ],
+      "sitPosition": [ 1, 20 ]
     }
   ],
 
   "objectType": "loungeable",
-  "sitOrientation": "lay",
+  "sitOrientation": "Stand",
   "sitCoverImage": "/pat/severedhead/stall/cover.png",
   "sitFlipDirection": false,
 
